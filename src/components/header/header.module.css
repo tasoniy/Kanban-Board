@@ -1,0 +1,19 @@
+.header {
+    background-color: #0067A3;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        display: none;
+    }
+
+    .header {
+        background-color: #0079BF;
+    }
+
+}

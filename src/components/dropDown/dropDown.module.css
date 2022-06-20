@@ -1,0 +1,33 @@
+.select {
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    color: black;
+    background-color: #ffffff;
+    margin:0;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap::after {
+    content: '∨';
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    pointer-events: none;
+}
+
+.option {
+    cursor: pointer;
+}

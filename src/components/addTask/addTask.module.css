@@ -1,0 +1,38 @@
+.addField {
+    border:none;
+    outline:none;
+    width: 97%;
+    border-bottom: 1px solid #000000;
+    overflow-wrap: break-word;
+}
+
+.wrap{
+    background-color: #ffffff;
+    color: black;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.btnSubmit {
+    background-color: #0079BF;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.15em;
+    padding: 4px 8px;
+}
+
+.error {
+    margin-top:-13px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #e41919;
+}
+
+.btnSubmit:hover {
+    background-color: #05324d;
+}

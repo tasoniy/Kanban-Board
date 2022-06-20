@@ -1,0 +1,19 @@
+.footer {
+    background-color: #0067A3;
+}
+
+.footer div {
+    display: flex;
+}
+
+.text {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+      display: none;
+    }
+  }
